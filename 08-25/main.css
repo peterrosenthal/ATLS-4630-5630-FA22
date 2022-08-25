@@ -1,0 +1,25 @@
+article.my-class {
+  background-color: red;
+}
+
+.some-other-class {
+  background-color: green;
+}
+
+#page-title {
+  font-size: 10em;
+}
+
+#page-title:hover {
+  background-color: red;
+}
+
+article {
+  display: block;
+  background-color: blue;
+  padding: 50px 10px 100px 15px;
+}
+
+a {
+  display: block;
+}
