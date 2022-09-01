@@ -1,0 +1,63 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  /* using flex-direction and flex-wrap */
+  /*
+  flex-direction: row;
+  flex-wrap: wrap;
+  */
+  /* using flex-flow */
+  flex-flow: row nowrap;
+  height: 20rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-item {
+  color: white;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 2rem;
+  padding: 0.5rem;
+}
+
+#first-child {
+  background-color: blue;
+}
+
+#second-child {
+  background-color: red;
+  flex-grow: 0;
+}
+
+#third-child {
+  background-color: yellow;
+  flex-shrink: 2;
+}
+
+#fourth-child {
+  background-color: green;
+  flex: 0 0 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 200px 200px 100px;
+  grid-template-columns: 100px 100px 200px;
+}
+
+#first-grid-item {
+  background-color: blue;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#second-grid-item {
+  background-color: yellow;
+  grid-row: 2 / 4;
+  grid-column: 1 / 4;
+}
