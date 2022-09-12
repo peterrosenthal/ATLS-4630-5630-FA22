@@ -1,1 +1,2 @@
 Hi, this is a new file!
+This is an attempt to create conflicts.
