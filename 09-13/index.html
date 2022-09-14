@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="first-text-input">Enter in some text!</label>
+        <input type="text" id="first-text-input" >
+      </div>
+      <div>
+        <label for="email-input">Email</label>
+        <input type="email" id="email-input" >
+      </div>
+      <div>
+        <label for="color-input">Choose a color</label>
+        <input type="color" id="color-input" >
+      </div>
+
+      <fieldset id="checkboxes">
+        <legend>Checkbox Group</legend>
+
+        <input type="checkbox" id="check-1" name="checkbox-group">
+        <label for="check-1" >Option 1</label>
+
+        <input type="checkbox" id="check-2" name="checkbox-group">
+        <label for="check-2" >Option 2</label>
+
+        <input type="checkbox" id="check-3" name="checkbox-group">
+        <label for="check-3" >Option 3</label>
+
+        <input type="checkbox" id="check-4" name="checkbox-group">
+        <label for="check-4" >Option 4</label>
+        
+      </fieldset>
+
+      <fieldset>
+        <legend>Favorite Icecream Flavor</legend>
+
+        <input type="radio" id="vanilla" name="icecream">
+        <label for="vanilla">Vanilla</label>
+
+        <input type="radio" id="chocolate" name="icecream">
+        <label for="chocolate">Chocolate</label>
+
+        <input type="radio" id="strawberry" name="icecream">
+        <label for="strawberry">Strawberry</label>
+
+        <input type="radio" id="cookiesncream" name="icecream">
+        <label for="cookiesncream">Cookies n' Cream</label>
+
+      </fieldset>
+
+      <button type="button" id="my-button">Button text here!</button>
+    </form>
+  </body>
+</html>

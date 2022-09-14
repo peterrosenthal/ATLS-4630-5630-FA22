@@ -130,3 +130,11 @@ div.addEventListener('mouseenter', () => {
 div.addEventListener('mouseleave', function() {
   div.style.backgroundColor = "#0000ff";
 });
+
+// events can also pass an event parameter, keyboard events are
+// different from mouse events are different from many other types of event
+window.addEventListener('keyup', (event) => {
+  // keyboard events have a 'code' property which helps you figure out what key was pressed
+  // see mdn for keyboard events and mouse events to learn more about the properties available
+  console.log(event.code);
+})
