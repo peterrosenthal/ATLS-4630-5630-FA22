@@ -1,2 +1,4 @@
 pre-class-prototyping/
 .DS_Store
+
+**/node_modules/

@@ -1,0 +1,12 @@
+{
+  "name": "10-25",
+  "version": "1.0.0",
+  "main": "js/main.js",
+  "scripts": {
+    "build": "npx esbuild js/main.js --bundle --outfile=bundle.js --sourcemap --minify",
+    "watch": "node watch.node.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.12"
+  }
+}
