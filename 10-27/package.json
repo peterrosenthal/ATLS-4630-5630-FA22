@@ -1,0 +1,12 @@
+{
+  "name": "10-27",
+  "version": "1.0.0",
+  "main": "js/main.js",
+  "scripts": {
+    "dev": "npx parcel index.html"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "parcel": "^2.7.0"
+  }
+}
