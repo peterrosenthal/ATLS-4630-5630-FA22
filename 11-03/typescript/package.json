@@ -1,0 +1,13 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel index.html",
+    "serve": "npx http-server"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "parcel": "^2.7.0"
+  }
+}
