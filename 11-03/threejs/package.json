@@ -1,7 +1,6 @@
 {
   "name": "threejs",
   "version": "1.0.0",
-  "main": "main.js",
   "scripts": {
     "dev": "npx parcel index.html"
   },
